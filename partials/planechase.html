@@ -1,0 +1,12 @@
+<div class='planechase'>
+  <h1>Planechase {{planes.length}}</h1>
+  <div class='plane'>
+    <img ng-click='planeswalk()' ng-src='{{currentPlane}}'>
+  </div>
+  <div class='buttons'>
+    <div class='btn-group'>
+      <button class='btn btn-danger btn-lg' ng-click='planeswalk()'>Planeswalk</button>
+      <button class='btn btn-primary btn-lg' ng-click='rollDie()'>Roll Die</button>
+    </div>
+  </div>
+</div>
