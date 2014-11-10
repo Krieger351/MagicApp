@@ -21,7 +21,7 @@
     preg_match('/src=("[^"]*")/i',$img[0], $src_l);
     preg_match('/id=("[^"]*")/i',$img[0], $id_l);
     preg_match('/"[^"]*"/',$src_l[0],$src);
-    $output[] = str_replace('amp;','',str_replace('"','',$src[0]));
+    $output[] = substr($src[0],strpos($src[0],"multiverseid=")+13,6);//str_replace('amp;','',str_replace('"','',$src[0]));
   }
 
   echo json_encode($output);

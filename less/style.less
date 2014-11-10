@@ -1,20 +1,9 @@
 @import '../bower_components/bootstrap/less/bootstrap.less';
+@import './better-buttons.less';
+
+@import './planechase.less';
+
 body{
   margin-top:@navbar-height;
 }
-
-.planechase{
-  width:100%;
-  .plane{
-    img{
-      display:block;
-      margin:auto;
-      .img-responsive;
-    }
-  }
-  .buttons{
-    margin:auto;
-    padding:@padding-base-vertical;
-    text-align:center;
-  }
-}
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
