@@ -1,0 +1,63 @@
+@import "bootstrap";
+@import "buttons/better-buttons";
+@import (reference) "utils";
+
+//General Stuff
+body,html{
+  height:100%;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+//Header Stuff
+
+header{
+  border-bottom: 1px black solid;
+  .container;
+  .title{
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block;
+  }
+  img{
+    height: 6vw;
+    vertical-align: top;
+    margin-right:1vmax;
+  }
+  nav {
+    &:extend(.clearfix all);
+    display: inline-block;
+    padding:5px 0;
+    a {
+      padding: 0 @padding-base-horizontal;
+      font-size: 2vw;
+      display: inline-block;
+      transition-duration: .2s;
+      color:@black;
+      &:hover{
+        color: @black;
+        text-decoration: none;
+      }
+      &:after {
+      	content: '';
+      	display: block;
+      	margin: auto;
+      	height: 3px;
+      	width: 0px;
+      	background: transparent;
+      	transition: width .5s ease, background-color .5s ease;
+      }
+      &:hover:after {
+      	width: 100%;
+      	background: @black;
+      }
+      &.active:after{
+      	width: 100%;
+      	background: @black;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-angular.module('MagicApp.navbar',['ui.bootstrap'])
+angular.module('MagicApp.navbar',[])
 
 .controller('NavbarCtrl', ['$scope','$location', function($scope,$location) {
   $scope.location = $location;

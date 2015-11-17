@@ -1,0 +1,34 @@
+{
+  "name": "magic_app",
+  "version": "1.0.0",
+  "description": "An app to allow playing planechace or archenemy",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bowercopy": "^1.2.3",
+    "grunt-cleanempty": "^1.0.3",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-less": "^1.1.0",
+    "less-plugin-clean-css": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirStrelok/MagicApp.git"
+  },
+  "author": "Alexander Glica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladimirStrelok/MagicApp/issues"
+  },
+  "homepage": "https://github.com/VladimirStrelok/MagicApp#readme"
+}

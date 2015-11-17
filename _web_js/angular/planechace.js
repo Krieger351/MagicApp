@@ -1,4 +1,4 @@
-angular.module('MagicApp.planechase', ['ngRoute','ui.bootstrap'])
+angular.module('MagicApp.planechase', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/planechase', {

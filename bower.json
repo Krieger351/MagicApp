@@ -1,0 +1,28 @@
+{
+  "name": "magic_app",
+  "description": "An app to allow playing planechace or archenemy",
+  "main": "server.js",
+  "authors": [
+    "Alexander Glica"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/VladimirStrelok/MagicApp",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.11.2",
+    "angular-local-storage": "~0.1.5",
+    "angular": "~1.3.2",
+    "angular-route": "~1.3.2",
+    "bootstrap": "~3.3.0",
+    "colors": "~2.0.0",
+    "knuth-shuffle": "~1.0.1"
+  }
+}
