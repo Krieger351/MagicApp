@@ -1,0 +1,206 @@
+{
+  "akoum":{
+    "name":"Akoum",
+    "type":"Plane",
+    "plane":"Zendikar",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/akoum.jpg"
+  },
+  "aretopolis":{
+    "name":"Aretopolis",
+    "type":"Plane",
+    "plane":"Kephalai",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/aretopolis.jpg"
+  },
+  "astral-arena":{
+    "name":"Astral Arena",
+    "type":"Plane",
+    "plane":"Kolbahan",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/astral-arena.jpg"
+  },
+  "bloodhill-bastion":{
+    "name":"Bloodhill Bastion",
+    "type":"Plane",
+    "plane":"Equilor",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/bloodhill-bastion.jpg"
+  },
+  "edge-of-malacol":{
+    "name":"Edge of Malacol",
+    "type":"Plane",
+    "plane":"Belenon",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/edge-of-malacol.jpg"
+  },
+  "furnace-layer":{
+    "name":"Furnace Layer",
+    "type":"Plane",
+    "plane":"New Phyrexia",
+    "location":"http://magiccards.info/extras/lane/planechase-2012-edition/furnace-layer.jpg"
+  },
+  "gavony":{
+    "name":"Gavony",
+    "type":"Plane",
+    "plane":"Innistrad",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/gavony.jpg"
+  },
+  "glen-elendra":{
+    "name":"Glen Elendra",
+    "type":"Plane",
+    "plane":"Lorwyn",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/glen-elendra.jpg"
+  },
+  "grand-ossuary":{
+    "name":"Grand Ossuary",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/grand-ossuary.jpg"
+  },
+  "grove-of-the-dreampods":{
+    "name":"Grove of the Dreampods",
+    "type":"Plane",
+    "plane":"Fabacin",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/grove-of-the-dreampods.jpg"
+  }
+  "aretopolis":{
+    "name":"Aretopolis",
+    "type":"Plane",
+    "plane":"Kephalai",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/aretopolis.jpg"
+  },
+  "hedron-fields-of-agadeem":{
+    "name":"Hedron Fields of Agadeem",
+    "type":"Plane",
+    "plane":"Zendikar",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/hedron-fields-of-agadeem.jpg"
+  },
+  "jund":{
+    "name":"Jund",
+    "type":"Plane",
+    "plane":"Alara",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/jund.jpg"
+  },
+  "kessig":{
+    "name":"Kessig",
+    "type":"Plane",
+    "plane":"Innistrad",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/kessig.jpg"
+  },
+  "kharasha-foothills":{
+    "name":"Kharasha Foothills",
+    "type":"Plane",
+    "plane":"Mongseng",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/kharasha-foothills.jpg"
+  },
+  "kilnspire-district":{
+    "name":"Kilnspire District",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/kilnspire-district.jpg"
+  },
+  "lair-of-the-ashen-idol":{
+    "name":"Lair of the Ashen Idol",
+    "type":"Plane",
+    "plane":"Azgol",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/lair-of-the-ashen-idol.jpg"
+  },
+  "mount-keralia":{
+    "name":"Mount Keralia",
+    "type":"Plane",
+    "plane":"Regatha",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/mount-keralia.jpg"
+  },
+  "nephalia":{
+    "name":"Nephalia",
+    "type":"Plane",
+    "plane":"Innistrad",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/nephalia.jpg"
+  },
+  "norns-dominion":{
+    "name":"Norn's Dominion",
+    "type":"Plane",
+    "plane":"New Phyrexia",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/norns-dominion.jpg"
+  },
+  "onakke-catacomb":{
+    "name":"Onakke Catacomb",
+    "type":"Plane",
+    "plane":"Shandalar",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/onakke-catacomb.jpg"
+  },
+  "orochi-colony":{
+    "name":"Orochi Colony",
+    "type":"Plane",
+    "plane":"Kamigawa",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/orochi-colony.jpg"
+  },
+  "orzhova":{
+    "name":"Orzhova",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/orzhova.jpg"
+  },
+  "prahv":{
+    "name":"Prahv",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/prahv.jpg"
+  },
+  "quicksilver-sea":{
+    "name":"Quicksilver Sea",
+    "type":"Plane",
+    "plane":"Mirrodin",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/quicksilver-sea.jpg"
+  },
+  "selesnya-loft-gardens":{
+    "name":"Selesnya Loft ",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/selesnya-loft-gardens.jpg"
+  },
+  "stensia":{
+    "name":"Stensia",
+    "type":"Plane",
+    "plane":"Innistrad",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/stensia.jpg"
+  },
+  "takenuma":{
+    "name":"Takenuma",
+    "type":"Plane",
+    "plane":"Kamigawa",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/takenuma.jpg"
+  },
+  "talon-gates":{
+    "name":"Talon Gates",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/talon-gates.jpg"
+  },
+  "trail-of-the-mage-rings":{
+    "name":"Trail of the Mage-Rings",
+    "type":"Plane",
+    "plane":"Vryn",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/trail-of-the-mage-rings.jpg"
+  },
+  "truga-jungle":{
+    "name":"Truga Jungle",
+    "type":"Plane",
+    "plane":"Ergamon",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/truga-jungle.jpg"
+  },
+  "windriddle-palaces":{
+    "name":"Windriddle Palaces",
+    "type":"Plane",
+    "plane":"Belenon",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/windriddle-palaces.jpg"
+  }
+  "the-zephyr-maze":{
+    "name":"The Zephyr Maze",
+    "type":"Plane",
+    "plane":"Kyneth",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/the-zephyr-maze.jpg"
+  },
+  "stairs-to-infinity":{
+    "name":"Stairs to Infinity",
+    "type":"Plane",
+    "plane":"Xerex",
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/stairs-to-infinity.jpg"
+  },
+}

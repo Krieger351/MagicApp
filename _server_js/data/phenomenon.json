@@ -1,0 +1,42 @@
+{
+  "chaotic-aether":{
+    "name":"Chaotic Æther",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/chaotic-aether.jpg"
+  },
+  "interplanar-tunnel":{
+    "name":"Interplanar Tunnel",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/interplanar-tunnel.jpg"
+  },
+  "morphic-tide":{
+    "name":"Morphic Tide",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/morphic-tide.jpg"
+  },
+  "mutual-epiphany":{
+    "name":"Mutual Epiphany",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/mutual-epiphany.jpg"
+  },
+  "planewide-disaster":{
+    "name":"Planewide Disaster",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/planewide-disaster.jpg"
+  },
+  "reality-shaping":{
+    "name":"Reality Shaping",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/reality-shaping.jpg"
+  },
+  "spatial-merging":{
+    "name":"Spatial Merging",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/spatial-merging.jpg"
+  },
+  "time-distortion":{
+    "name":"Time Distortion",
+    "type":"Phenomenon",
+    "location":"http://magiccards.info/extras/phenomenon/planechase-2012-edition/time-distortion.jpg"
+  }
+}
