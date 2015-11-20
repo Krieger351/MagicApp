@@ -1,6 +1,7 @@
 .planechase
   .main
     img(ng-src='/img/{{currentPlane}}' )
+    img(ng-src='/img/{{keys[0]}}' )
     .controls
       h3 Remaining Planes {{ keys.length }}
       button.btn.btn-block.btn-lg.btn-silver(ng-click='planeswalk()') Planeswalk
