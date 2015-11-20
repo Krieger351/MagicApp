@@ -1,0 +1,16 @@
+.planechase
+  .main
+    img(ng-src='/img/{{currentPlane}}' )
+    .controls
+      h3 Remaining Planes {{ keys.length }}
+      button.btn.btn-block.btn-lg.btn-silver(ng-click='planeswalk()') Planeswalk
+      button.btn.btn-block.btn-lg.btn-blue(ng-click='holdPlane()') Hold 
+      button.btn.btn-block.btn-lg.btn-black(ng-click='shuffle()') Shuffle
+      button.btn.btn-block.btn-lg.btn-red(ng-click='putOnBottom()') Put On Bottom
+      button.btn.btn-block.btn-lg.btn-green(ng-click='restart()') Restart
+  .plane(ng-repeat='plane in heldPlanes')
+    img(ng-src='/img/{{plane}}' )
+    .controls
+      buttons.btn.btn-block.btn-lg.btn-gray(ng-click='clear(plane)') Clear
+      buttons.btn.btn-block.btn-lg.btn-navy(ng-click='putOnTop(plane)') Put On Top
+      buttons.btn.btn-block.btn-lg.btn-orange(ng-click='putOnBottom(plane)') Put On Bottom      

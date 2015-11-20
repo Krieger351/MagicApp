@@ -1,15 +1,19 @@
 doctype html
 html(lang="en" ng-app='MagicApp')
   head
-      title Alpine Web App
+      title Magic App
       link(rel="stylesheet" type="text/css" href="css/style.css")
       meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
   body
-    header
-      .title Kriegers Magic App
+    header(ng-controller="NavbarCtrl")
+      .title Krieger's Magic App
       nav 
-        a Planechase
+        a(href='#planechase', ng-class="{active: location.path() == '/planechase'}") Planechase
         a Archenemy
+        
+    .container(ng-view)
+      
     script(src="./js/vendor/angular/angular.js")
     script(src="./js/vendor/angular/angular-route.js")  
+    script(src="./js/vendor/knuth/knuth.js")  
     script(src="./js/magic_app.js")  

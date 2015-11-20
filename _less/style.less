@@ -37,6 +37,10 @@ header{
       display: inline-block;
       transition-duration: .2s;
       color:@black;
+      &:focus {
+        text-decoration: none;
+        color: @black;
+      }
       &:hover{
         color: @black;
         text-decoration: none;
@@ -59,5 +63,28 @@ header{
       	background: @black;
       }
     }
+  }
+}
+
+.planechase{
+  .main{
+    .make-row();
+  }
+  .plane{
+    .make-row();
+  }
+  margin-top:@padding-base-vertical;
+  .controls{
+    .make-md-column(3);
+    .make-md-column-pull(9);
+    button{
+    }
+  }
+  img{
+    .make-md-column(9);
+    .make-md-column-push(3);
+    margin-bottom:@padding-base-vertical;
+    transition: .5s ease;
+    .img-responsive;
   }
 }

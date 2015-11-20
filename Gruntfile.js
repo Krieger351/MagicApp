@@ -65,7 +65,9 @@ module.exports = function (grunt) {
         },
         files: {
           'angular/angular.js': 'angular/angular.min.js',
-          'angular/angular-route.js':'angular-route/angular-route.min.js'
+          'angular/angular-route.js':'angular-route/angular-route.min.js',
+          'async/async.js':'async/dist/async.min.js',
+          'knuth/knuth.js':'knuth-shuffle/index.js'
         }
       }
     },

@@ -33,7 +33,7 @@
     "name":"Furnace Layer",
     "type":"Plane",
     "plane":"New Phyrexia",
-    "location":"http://magiccards.info/extras/lane/planechase-2012-edition/furnace-layer.jpg"
+    "location":"http://magiccards.info/extras/plane/planechase-2012-edition/furnace-layer.jpg"
   },
   "gavony":{
     "name":"Gavony",
@@ -58,7 +58,7 @@
     "type":"Plane",
     "plane":"Fabacin",
     "location":"http://magiccards.info/extras/plane/planechase-2012-edition/grove-of-the-dreampods.jpg"
-  }
+  },
   "aretopolis":{
     "name":"Aretopolis",
     "type":"Plane",
@@ -190,7 +190,7 @@
     "type":"Plane",
     "plane":"Belenon",
     "location":"http://magiccards.info/extras/plane/planechase-2012-edition/windriddle-palaces.jpg"
-  }
+  },
   "the-zephyr-maze":{
     "name":"The Zephyr Maze",
     "type":"Plane",
@@ -203,4 +203,280 @@
     "plane":"Xerex",
     "location":"http://magiccards.info/extras/plane/planechase-2012-edition/stairs-to-infinity.jpg"
   },
+  "academy-at-tolaria-west":{
+    "name":"Academy at Tolaria West",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase/academy-at-tolaria-west.jpg"
+  },
+  "the-aether-flues":{
+    "name":"The Æther Flues",
+    "type":"Plane",
+    "plane":"Iquantana",
+    "location":"http://magiccards.info/extras/plane/planechase/the-aether-flues.jpg"
+  },
+  "agyrem":{
+    "name":"Agyrem",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase/agyrem.jpg"
+  },
+  "bant":{
+    "name":"Bant",
+    "type":"Plane",
+    "plane":"Alara",
+    "location":"http://magiccards.info/extras/plane/planechase/bant.jpg"
+  },
+  "cliffside-market":{
+    "name":"Cliffside Market",
+    "type":"Plane",
+    "plane":"Mercadia",
+    "location":"http://magiccards.info/extras/plane/planechase/cliffside-market.jpg"
+  },
+  "the-dark-barony":{
+    "name":"The Dark Barony",
+    "type":"Plane",
+    "plane":"Ulgrotha",
+    "location":"http://magiccards.info/extras/plane/planechase/the-dark-barony.jpg"
+  },
+  "eloren-wilds":{
+    "name":"Eloren Wilds",
+    "type":"Plane",
+    "plane":"Shanadalar",
+    "location":"http://magiccards.info/extras/plane/planechase/eloren-wilds.jpg"
+  },
+  "the-eon-fog":{
+    "name":"The Eon Fog",
+    "type":"Plane",
+    "plane":"Equilor",
+    "location":"http://magiccards.info/extras/plane/planechase/the-eon-fog.jpg"
+  },
+  "feeding-grounds":{
+    "name":"Feeding Grounds",
+    "type":"Plane",
+    "plane":"Muraganda",
+    "location":"http://magiccards.info/extras/plane/planechase/feeding-grounds.jpg"
+  },
+  "fields-of-summer":{
+    "name":"Fields of Summer",
+    "type":"Plane",
+    "plane":"Moag",
+    "location":"http://magiccards.info/extras/plane/planechase/fields-of-summer.jpg"
+  },
+  "the-fourth-sphere":{
+    "name":"The Fourth Sphere",
+    "type":"Plane",
+    "plane":"Phyrexia",
+    "location":"http://magiccards.info/extras/plane/planechase/the-fourth-sphere.jpg"
+  },
+  "glimmervoid-basin":{
+    "name":"Glimmervoid Basin",
+    "type":"Plane",
+    "plane":"Mirrodin",
+    "location":"http://magiccards.info/extras/plane/planechase/glimmervoid-basin.jpg"
+  },
+  "goldmeadow":{
+    "name":"Goldmeadow",
+    "type":"Plane",
+    "plane":"Lorwyn",
+    "location":"http://magiccards.info/extras/plane/planechase/goldmeadow.jpg"
+  },
+  "the-great-forest":{
+    "name":"The Great Forest",
+    "type":"Plane",
+    "plane":"Lorwyn",
+    "location":"http://magiccards.info/extras/plane/planechase/the-great-forest.jpg"
+  },
+  "grixis":{
+    "name":"Grixis",
+    "type":"Plane",
+    "plane":"Alara",
+    "location":"http://magiccards.info/extras/plane/planechase/grixis.jpg"
+  },
+  "the-hippodrome":{
+    "name":"The Hippodrome",
+    "type":"Plane",
+    "plane":"Segovia",
+    "location":"http://magiccards.info/extras/plane/planechase/the-hippodrome.jpg"
+  },
+  "immersturm":{
+    "name":"Immersturm",
+    "type":"Plane",
+    "plane":"Valla",
+    "location":"http://magiccards.info/extras/plane/planechase/immersturm.jpg"
+  },
+  "isle-of-vesuva":{
+    "name":"Isle of Vesuva",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase/isle-of-vesuva.jpg"
+  },
+  "izzet-steam-maze":{
+    "name":"Izzet Steam Maze",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase/izzet-steam-maze.jpg"
+  },
+  "krosa":{
+    "name":"Krosa",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase/krosa.jpg"
+  },
+  "lethe-lake":{
+    "name":"Lethe Lake",
+    "type":"Plane",
+    "plane":"Arkhos",
+    "location":"http://magiccards.info/extras/plane/planechase/lethe-lake.jpg"
+  },
+  "llanowar":{
+    "name":"Llanowar",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase/llanowar.jpg"
+  },
+  "the-maelstrom":{
+    "name":"The Maelstrom",
+    "type":"Plane",
+    "plane":"Alara",
+    "location":"http://magiccards.info/extras/plane/planechase/the-maelstrom.jpg"
+  },
+  "minamo":{
+    "name":"Minamo",
+    "type":"Plane",
+    "plane":"Kamigawa",
+    "location":"http://magiccards.info/extras/plane/planechase/minamo.jpg"
+  },
+  "murasa":{
+    "name":"Murasa",
+    "type":"Plane",
+    "plane":"Zendikar",
+    "location":"http://magiccards.info/extras/plane/planechase/murasa.jpg"
+  },
+  "naar-isle":{
+    "name":"Naar Isle",
+    "type":"Plane",
+    "plane":"Wildfire",
+    "location":"http://magiccards.info/extras/plane/planechase/naar-isle.jpg"
+  },
+  "naya":{
+    "name":"Naya",
+    "type":"Plane",
+    "plane":"Alara",
+    "location":"http://magiccards.info/extras/plane/planechase/naya.jpg"
+  },
+  "otaria":{
+    "name":"Otaria",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase/otaria.jpg"
+  },
+  "panopticon":{
+    "name":"Panopticon",
+    "type":"Plane",
+    "plane":"Mirrodin",
+    "location":"http://magiccards.info/extras/plane/planechase/panopticon.jpg"
+  },
+  "pools-of-becoming":{
+    "name":"Pools of Becoming",
+    "type":"Plane",
+    "plane":"Bolas's Meditation Realm",
+    "location":"http://magiccards.info/extras/plane/planechase/pools-of-becoming.jpg"
+  },
+  "ravens-run":{
+    "name":"Raven's Run",
+    "type":"Plane",
+    "plane":"Shadowmoor",
+    "location":"http://magiccards.info/extras/plane/planechase/ravens-run.jpg"
+  },
+  "sanctum-of-serra":{
+    "name":"Sanctum of Serra",
+    "type":"Plane",
+    "plane":"Serra's Realm",
+    "location":"http://magiccards.info/extras/plane/planechase/sanctum-of-serra.jpg"
+  },
+  "sea-of-sand":{
+    "name":"Sea of Sand",
+    "type":"Plane",
+    "plane":"Rabiah",
+    "location":"http://magiccards.info/extras/plane/planechase/sea-of-sand.jpg"
+  },
+  "shiv":{
+    "name":"Shiv",
+    "type":"Plane",
+    "plane":"Dominaria",
+    "location":"http://magiccards.info/extras/plane/planechase/shiv.jpg"
+  },
+  "skybreen":{
+    "name":"Skybreen",
+    "type":"Plane",
+    "plane":"Kaldheim",
+    "location":"http://magiccards.info/extras/plane/planechase/skybreen.jpg"
+  },
+  "sokenzan":{
+    "name":"Sokenzan",
+    "type":"Plane",
+    "plane":"Kamigawa",
+    "location":"http://magiccards.info/extras/plane/planechase/sokenzan.jpg"
+  },
+  "stronghold-furnace":{
+    "name":"Stronghold Furnace",
+    "type":"Plane",
+    "plane":"Rath",
+    "location":"http://magiccards.info/extras/plane/planechase/stronghold-furnace.jpg"
+  },
+  "turri-island":{
+    "name":"Turri Island",
+    "type":"Plane",
+    "plane":"Ir",
+    "location":"http://magiccards.info/extras/plane/planechase/turri-island.jpg"
+  },
+  "undercity-reaches":{
+    "name":"Undercity Reaches",
+    "type":"Plane",
+    "plane":"Ravnica",
+    "location":"http://magiccards.info/extras/plane/planechase/undercity-reaches.jpg"
+  },
+  "velis-vel":{
+    "name":"Velis Vel",
+    "type":"Plane",
+    "plane":"Lorwyn",
+    "location":"http://magiccards.info/extras/plane/planechase/velis-vel.jpg"
+  },
+  "tazeem":{
+    "name":"Tazeem",
+    "type":"Plane",
+    "plane":"Zendikar",
+    "location":"http://magiccards.info/extras/plane/planechase/tazeem-release-promo.jpg"
+  },
+  "celestine-reef":{
+    "name":"Celestine Reef",
+    "type":"Plane",
+    "plane":"Luvion",
+    "location":"http://magiccards.info/extras/plane/planechase/celestine-reef-pre-release-promo.jpg"
+  },
+  "bant":{
+    "name":"Bant",
+    "type":"Plane",
+    "plane":"Alara",
+    "location":"http://magiccards.info/extras/plane/planechase/bant.jpg"
+  },
+  "horizon-boughs":{
+    "name":"Horizon Boughs",
+    "type":"Plane",
+    "plane":"Pyrulea",
+    "location":"http://magiccards.info/extras/plane/planechase/horizon-boughs-gateway-promo.jpg"
+  },
+  "mirrored-depths":{
+    "name":"Mirrored Depths",
+    "type":"Plane",
+    "plane":"Karsus",
+    "location":"http://magiccards.info/extras/plane/planechase/mirrored-depths.jpg"
+  },
+  "tember-city":{
+    "name":"Tember City",
+    "type":"Plane",
+    "plane":"Kinshala",
+    "location":"http://magiccards.info/extras/plane/planechase/tember-city.jpg"
+  }
 }

@@ -30,4 +30,5 @@ bower_components
 public_html
 !public_html/.gitkeep
 daemon
-node_server/settings.json
+.ssl
+!.ssl/.gitkeep

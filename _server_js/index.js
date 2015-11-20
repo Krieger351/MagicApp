@@ -1,7 +1,8 @@
 var settings = require('./settings'),
     express = require('express'),
     path = require('path'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    https = require('https');
 
 var app = express();
 var data = require('./data'),

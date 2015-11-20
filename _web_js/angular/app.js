@@ -6,5 +6,5 @@ angular.module('MagicApp',
     'MagicApp.navbar'
   ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/archenemy'});
+  $routeProvider.otherwise({redirectTo: 'planechase'});
 }]);
