@@ -7,6 +7,6 @@ var router = require('express').Router(),
 var data = require('../data');
 
 router.get('/:name', function(req, res) {
-    request.get(data.planechase.all[req.params.name].location).pipe(res);
+    request.get(_.extend(data.planechase.all,data.archenemy.schemes)[req.params.name].location).pipe(res);
 })
 module.exports = router;

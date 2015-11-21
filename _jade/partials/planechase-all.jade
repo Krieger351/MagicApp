@@ -1,0 +1,3 @@
+.planechase-all
+  a(ng-repeat='plane in keys | orderBy',ng-href="#/planechase/planes/{{ plane }}") 
+    img( ng-src='/img/{{ plane }}')

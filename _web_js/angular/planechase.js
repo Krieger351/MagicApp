@@ -4,18 +4,26 @@ angular.module('MagicApp.planechase', ['ngRoute'])
   $routeProvider.when('/planechase', {
     templateUrl: 'partials/planechase.html',
     controller: 'PlanechaseCtrl'
+  })
+  .when('/planechase/planes', {
+    templateUrl: 'partials/planechase-all.html',
+    controller: 'PlanechaseCtrl'
+  })
+  .when('/planechase/planes/:plane', {
+    templateUrl: 'partials/planechase-plane.html',
+    controller: 'PlanechaseCtrl'
   });
 }])
-.controller('PlanechaseCtrl', ['$scope','$http', function($scope,$http) {
+.controller('PlanechaseCtrl', ['$scope','$http','$routeParams', function($scope,$http,$routeParams) {
   $scope.settings = {
     'includePhenomenon':true
   }
+  $scope.singlePlane=$routeParams.plane;
 
   $scope.planes = {}
 
+  $scope._keys = [];
   $scope.keys = [];
-
-  $scope.currentList = {}
 
   $scope.currentPlane = "";
 
@@ -27,7 +35,9 @@ angular.module('MagicApp.planechase', ['ngRoute'])
   $scope.getKeys = function(callback){
     $http.get("/data/planechase/keys")
       .then(function(response) {
-          $scope.keys = window.knuthShuffle(response.data);
+          $scope._keys = response.data;
+          $scope.keys = angular.copy($scope._keys);
+          $scope.shuffle();
           if(callback){
             callback();
           }
@@ -71,11 +81,17 @@ angular.module('MagicApp.planechase', ['ngRoute'])
       $scope.planeswalk();
     }
   }
-  $scope.restart = function(){
+  $scope.start = function(){
     $scope.getKeys(function(){
       $scope.planeswalk();
       $scope.getPlanes();
     });
   }
-  $scope.restart();
+  $scope.restart = function(){
+    $scope.heldPlanes = [];
+    $scope.currentPlane = "";
+    $scope.keys = window.knuthShuffle($scope._keys);
+    $scope.planeswalk();
+  }
+  $scope.start();
 }]);

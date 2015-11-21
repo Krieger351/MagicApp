@@ -1,8 +1,8 @@
 var router = require('express').Router(),
     _ = require('underscore');
 
-var planes = require('./planes')
-    phenomenon = require('./phenomenon'),
+var planes = require('./data_files/planes')
+    phenomenon = require('./data_files/phenomenon'),
     all = _.extend(planes,phenomenon);
 
 
