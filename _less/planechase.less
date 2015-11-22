@@ -1,25 +1,56 @@
 @import (reference) '../bower_components/bootstrap/less/variables.less';
 
+
 .planechase{
-  width:100%;
+  .main{
+    .make-row();
+  }
   .plane{
-    img{
-      display:block;
-      margin:auto;
-      .img-responsive;
+    .make-row();
+  }
+  margin-top:@padding-base-vertical;
+  .controls{
+    .make-md-column(3);
+    .make-md-column-pull(9);
+    button{
     }
   }
-  .buttons{
-    margin:auto;
-    padding:@padding-base-vertical;
-    text-align:center;
+  img{
+    .make-md-column(9);
+    .make-md-column-push(3);
+    margin-bottom:@padding-base-vertical;
+    transition: .5s ease;
+    .img-responsive;
+  }
+  img + img{
+    display:none;
   }
 }
-
-.plane-modal{
+.planechase-all{
+  margin-top:@padding-base-vertical;
+  .make-row();
   img{
-    display:block;
-    margin:auto;
+    .make-md-column(6);
+    .make-lg-column(4);
+    margin-bottom:@padding-base-vertical;
+    transition: .5s ease;
+    .img-responsive;
+  }
+  input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid @black;
+    &:focus{
+      outline:0;
+      text-decoration: none;
+    }
+  }
+}
+.planechase-single{
+  margin-top:@padding-base-vertical;
+  img{
+    transition: .5s ease;
     .img-responsive;
   }
 }
