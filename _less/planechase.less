@@ -2,6 +2,44 @@
 
 
 .planechase{
+  nav{
+    &:extend(.clearfix all);
+    display: inline-block;
+    padding:5px 0;
+    text-align:center;
+    a {
+      padding: 0 @padding-base-horizontal;
+      font-size: 1vw;
+      display: inline-block;
+      transition-duration: .2s;
+      color:@gray-dark;
+      &:focus {
+        text-decoration: none;
+        color:@gray-dark;
+      }
+      &:hover{
+        text-decoration: none;
+        color:@gray-dark;
+      }
+      &:after {
+      	content: '';
+      	display: block;
+      	margin: auto;
+      	height: 3px;
+      	width: 0px;
+      	background: transparent;
+      	transition: width .5s ease, background-color .5s ease;
+      }
+      &:hover:after {
+      	width: 100%;
+      	background: @gray-dark;
+      }
+      &.active:after{
+      	width: 100%;
+      	background: @gray-dark;
+      }
+    }
+  }
   .main{
     .make-row();
   }
@@ -28,6 +66,12 @@
 }
 .planechase-all{
   margin-top:@padding-base-vertical;
+  .header{
+    .make-xs-column(12);
+    .control{
+      display: inline-block;
+    }
+  }
   .make-row();
   img{
     .make-md-column(6);

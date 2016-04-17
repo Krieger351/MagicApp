@@ -9,7 +9,7 @@ html(lang="en" ng-app='MagicApp')
       .title Krieger's Magic App
       nav 
         a(href='#planechase', ng-class="{active: location.path() == '/planechase'}") Planechase
-        a Archenemy
+        a(href='#archenemy', ng-class="{active: location.path() == '/archenemy'}") Archenemy
         
     .container(ng-view)
       

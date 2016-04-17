@@ -1,4 +1,4 @@
-
+@header-text-color:@gray-dark;
 header{
   border-bottom: 1px black solid;
   .container;
@@ -22,13 +22,13 @@ header{
       font-size: 2vw;
       display: inline-block;
       transition-duration: .2s;
-      color:@black;
+      color:@header-text-color;
       &:focus {
         text-decoration: none;
-        color: @black;
+        color:@header-text-color;
       }
       &:hover{
-        color: @black;
+        color:@header-text-color;
         text-decoration: none;
       }
       &:after {
@@ -42,11 +42,11 @@ header{
       }
       &:hover:after {
       	width: 100%;
-      	background: @black;
+      	background: @header-text-color;
       }
       &.active:after{
       	width: 100%;
-      	background: @black;
+      	background: @header-text-color;
       }
     }
   }

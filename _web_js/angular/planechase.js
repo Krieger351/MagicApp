@@ -2,15 +2,15 @@ angular.module('MagicApp.planechase', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/planechase', {
-    templateUrl: 'partials/planechase.html',
+    templateUrl: 'partials/planechase/planechase.html',
     controller: 'PlanechaseCtrl'
   })
   .when('/planechase/planes', {
-    templateUrl: 'partials/planechase-all.html',
+    templateUrl: 'partials/planechase/planechase-all.html',
     controller: 'PlanechaseCtrl'
   })
   .when('/planechase/planes/:plane', {
-    templateUrl: 'partials/planechase-plane.html',
+    templateUrl: 'partials/planechase/planechase-plane.html',
     controller: 'PlanechaseCtrl'
   });
 }])

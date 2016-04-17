@@ -1,4 +1,8 @@
 .planechase
+  nav
+    a Edit Planes
+    a(href="#planechase/planes") View Planes
+    a(ng-click='restart()') Restart
   .main
     img(src='/img/{{currentPlane}}')
     img(ng-src='/img/{{keys[0]}}' )
@@ -8,7 +12,6 @@
       button.btn.btn-block.btn-lg.btn-blue(ng-click='holdPlane()') Hold 
       button.btn.btn-block.btn-lg.btn-black(ng-click='shuffle()') Shuffle
       button.btn.btn-block.btn-lg.btn-red(ng-click='putOnBottom()') Put On Bottom
-      button.btn.btn-block.btn-lg.btn-green(ng-click='restart()') Restart
   .plane(ng-repeat='plane in heldPlanes')
     img(ng-src='/img/{{plane}}' )
     .controls

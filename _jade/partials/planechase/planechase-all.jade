@@ -1,0 +1,11 @@
+.planechase-all
+  .header
+    h2.control Filter: 
+      input(type='text', ng-model='planeFilter')
+    h2.control 
+      button.btn.btn-blue View All? 
+        .fa-stack
+          i.fa.fa-check.fa-stack-1x
+          i.fa.fa-ban.fa-stack-2x.fa-flip-horizontal.red
+  a(ng-repeat='plane in keys | orderBy | filter:planeFilter',ng-href="#/planechase/planes/{{ plane }}") 
+    img( ng-src='/img/{{ plane }}')

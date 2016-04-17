@@ -7,7 +7,7 @@ var settings = require('./settings'),
 var app = express();
 var data = require('./data'),
     img = require('./imgProxy');
-
+    
 app.use(express.static(path.normalize(__dirname + settings.static_path)));
 app.use(bodyParser.json());
 
